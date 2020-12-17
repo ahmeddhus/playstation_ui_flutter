@@ -43,8 +43,8 @@ class _DetailsInfoWidgetState extends State<DetailsInfoWidget> {
                                 0.0,
                                 1.0,
                               ],
-                              begin: FractionalOffset.topCenter,
-                              end: FractionalOffset.bottomCenter,
+                              begin: FractionalOffset.topLeft,
+                              end: FractionalOffset.bottomRight,
                               tileMode: TileMode.repeated),
                           boxShadow: [
                             BoxShadow(
@@ -116,8 +116,8 @@ class _DetailsInfoWidgetState extends State<DetailsInfoWidget> {
                                 0.0,
                                 1.0,
                               ],
-                              begin: FractionalOffset.topCenter,
-                              end: FractionalOffset.bottomCenter,
+                              begin: FractionalOffset.topLeft,
+                              end: FractionalOffset.bottomRight,
                               tileMode: TileMode.repeated),
                           boxShadow: [
                             BoxShadow(
@@ -194,8 +194,8 @@ class _DetailsInfoWidgetState extends State<DetailsInfoWidget> {
                                 0.0,
                                 1.0,
                               ],
-                              begin: FractionalOffset.topCenter,
-                              end: FractionalOffset.bottomCenter,
+                              begin: FractionalOffset.topLeft,
+                              end: FractionalOffset.bottomRight,
                               tileMode: TileMode.repeated),
                           boxShadow: [
                             BoxShadow(
@@ -267,8 +267,8 @@ class _DetailsInfoWidgetState extends State<DetailsInfoWidget> {
                                 0.0,
                                 1.0,
                               ],
-                              begin: FractionalOffset.topCenter,
-                              end: FractionalOffset.bottomCenter,
+                              begin: FractionalOffset.topLeft,
+                              end: FractionalOffset.bottomRight,
                               tileMode: TileMode.repeated),
                           boxShadow: [
                             BoxShadow(

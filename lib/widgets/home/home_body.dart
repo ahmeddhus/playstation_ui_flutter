@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:playstation_ui/style/colors.dart' as Style;
 
 import 'home_bar.dart';
-import 'home_bottom_bar.dart';
 import 'home_swiper.dart';
 import 'home_tab.dart';
 import 'home_title.dart';
@@ -26,7 +24,6 @@ class _HomeBodyWidgetState extends State<HomeBodyWidget> {
         HomeTitleWidget(),
         HomeTabWidget(),
         HomeSwiperWidget(),
-        HomeBottomBarWidget(),
       ],
     );
   }

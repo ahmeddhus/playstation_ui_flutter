@@ -19,17 +19,18 @@ class _DetailsBottomWidgetState extends State<DetailsBottomWidget> {
             Radius.circular(10),
           ),
           gradient: LinearGradient(
-              colors: [
-                Style.Colors.primaryColor2,
-                Style.Colors.primaryColor,
-              ],
-              stops: [
-                0.0,
-                1.0,
-              ],
-              begin: FractionalOffset.topCenter,
-              end: FractionalOffset.bottomCenter,
-              tileMode: TileMode.repeated),
+            colors: [
+              Style.Colors.primaryColor2,
+              Style.Colors.primaryColor,
+            ],
+            stops: [
+              0.0,
+              1.0,
+            ],
+            begin: FractionalOffset.topLeft,
+            end: FractionalOffset.bottomRight,
+            tileMode: TileMode.repeated,
+          ),
           boxShadow: [
             BoxShadow(
               color: Colors.white10,
@@ -75,17 +76,18 @@ class _DetailsBottomWidgetState extends State<DetailsBottomWidget> {
                 width: 200.0,
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
-                      colors: [
-                        Style.Colors.g1BtnColor,
-                        Style.Colors.g2BtnColor,
-                      ],
-                      stops: [
-                        0.0,
-                        1.0,
-                      ],
-                      begin: FractionalOffset.topCenter,
-                      end: FractionalOffset.bottomCenter,
-                      tileMode: TileMode.repeated),
+                    colors: [
+                      Style.Colors.g1BtnColor,
+                      Style.Colors.g2BtnColor,
+                    ],
+                    stops: [
+                      0.0,
+                      1.0,
+                    ],
+                    begin: FractionalOffset.topLeft,
+                    end: FractionalOffset.bottomRight,
+                    tileMode: TileMode.repeated,
+                  ),
                   borderRadius: BorderRadius.all(
                     Radius.circular(10),
                   ),

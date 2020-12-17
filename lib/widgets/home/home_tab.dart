@@ -46,8 +46,8 @@ class _HomeTabWidgetState extends State<HomeTabWidget> {
                     0.0,
                     1.0,
                   ],
-                  begin: FractionalOffset.topCenter,
-                  end: FractionalOffset.bottomCenter,
+                  begin: FractionalOffset.topLeft,
+                  end: FractionalOffset.bottomRight,
                   tileMode: TileMode.repeated),
               borderRadius: BorderRadius.all(
                 Radius.circular(10),

@@ -18,7 +18,18 @@ class _HomeBarWidgetState extends State<HomeBarWidget> {
             height: 50.0,
             width: 50.0,
             decoration: BoxDecoration(
-              color: Style.Colors.primaryColor,
+              gradient: LinearGradient(
+                  colors: [
+                    Style.Colors.primaryColor2,
+                    Style.Colors.primaryColor,
+                  ],
+                  stops: [
+                    0.0,
+                    1.0,
+                  ],
+                  begin: FractionalOffset.topLeft,
+                  end: FractionalOffset.bottomRight,
+                  tileMode: TileMode.repeated),
               shape: BoxShape.circle,
               boxShadow: [
                 BoxShadow(
@@ -49,7 +60,18 @@ class _HomeBarWidgetState extends State<HomeBarWidget> {
             height: 50.0,
             width: 50.0,
             decoration: BoxDecoration(
-              color: Style.Colors.primaryColor,
+              gradient: LinearGradient(
+                  colors: [
+                    Style.Colors.primaryColor2,
+                    Style.Colors.primaryColor,
+                  ],
+                  stops: [
+                    0.0,
+                    1.0,
+                  ],
+                  begin: FractionalOffset.topLeft,
+                  end: FractionalOffset.bottomRight,
+                  tileMode: TileMode.repeated),
               shape: BoxShape.circle,
               boxShadow: [
                 BoxShadow(

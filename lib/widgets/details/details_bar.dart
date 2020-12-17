@@ -46,8 +46,8 @@ class _DetailsBarState extends State<DetailsBar> {
                     0.0,
                     1.0,
                   ],
-                  begin: FractionalOffset.topCenter,
-                  end: FractionalOffset.bottomCenter,
+                  begin: FractionalOffset.topLeft,
+                  end: FractionalOffset.bottomRight,
                   tileMode: TileMode.repeated,
                 ),
                 boxShadow: [
