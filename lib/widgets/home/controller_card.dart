@@ -17,23 +17,24 @@ class _ControllerCardState extends State<ControllerCard> {
             Radius.circular(30),
           ),
           gradient: LinearGradient(
-              colors: [
-                Style.Colors.primaryColor2,
-                Style.Colors.primaryColor,
-              ],
-              stops: [
-                0.0,
-                1.0,
-              ],
-              begin: FractionalOffset.topLeft,
-              end: FractionalOffset.bottomRight,
-              tileMode: TileMode.repeated),
+            colors: [
+              Style.Colors.primaryColor2,
+              Style.Colors.primaryColor,
+            ],
+            stops: [
+              0.0,
+              1.0,
+            ],
+            begin: FractionalOffset.topLeft,
+            end: FractionalOffset.bottomRight,
+            tileMode: TileMode.repeated,
+          ),
           boxShadow: [
             BoxShadow(
               color: Colors.white10,
-              blurRadius: 12.0,
-              spreadRadius: 0.5,
-              offset: Offset(-1.0, -1.0),
+              blurRadius: 15.0,
+              spreadRadius: 0.8,
+              offset: Offset(-1.0, 0.0),
             ),
             BoxShadow(
               color: Colors.black26,
@@ -47,7 +48,9 @@ class _ControllerCardState extends State<ControllerCard> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(height: 8.0,),
+            SizedBox(
+              height: 8.0,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
