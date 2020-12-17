@@ -2,6 +2,15 @@
 
 A new Flutter application.
 
+
+![](ui/1.png) 
+![](ui/2.png) 
+
+
+Ispired from, 
+[Furnity Shopping App](https://www.behance.net/gallery/97161467/Furnity-shopping-app-concept?tracking_source=search_projects_recommended%7Cecommerce%20%20app)
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
