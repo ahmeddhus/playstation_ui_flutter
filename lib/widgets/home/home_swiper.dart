@@ -3,7 +3,6 @@ import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:playstation_ui/screens/details_screen.dart';
 import 'controller_card.dart';
 import 'package:playstation_ui/style/controller_clipper.dart';
-import 'package:playstation_ui/style/colors.dart' as Style;
 
 class HomeSwiperWidget extends StatefulWidget {
   @override
